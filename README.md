@@ -2,8 +2,8 @@
 				local savedbatpos = plr.Character.HumanoidRootPart.Position
 				plr.Character.HumanoidRootPart.CFrame = CFrame.new(-903.6304931640625, 21.757530212402344, -296.4586486816406)
 				wait(1)
-				fireclickdetector(game.Workspace.Ignored.Shop['[SledgeHammer] - $350'].ClickDetector)
-				fireclickdetector(game.Workspace.Ignored.Shop['[SledgeHammer] - $350'].ClickDetector)
+				fireclickdetector(game.Workspace.Ignored.Shop['[SledgeHammer] - $361'].ClickDetector)
+				fireclickdetector(game.Workspace.Ignored.Shop['[SledgeHammer] - $361'].ClickDetector)
 				plr.Character.HumanoidRootPart.CFrame = CFrame.new(savedbatpos)
 				plr.Character.HumanoidRootPart.CFrame = CFrame.new(savedbatpos)
 				wait(2.5)
@@ -19,7 +19,7 @@
 				local pos = plr.Character.HumanoidRootPart.Position
 				if not game.Players.LocalPlayer.Character:FindFirstChild("[SledgeHammer]") then
 					plr.Character.HumanoidRootPart.CFrame = targetpos
-					local cd = game:GetService("Workspace").Ignored.Shop["[SledgeHammer] - $350"]:FindFirstChild("ClickDetector")
+					local cd = game:GetService("Workspace").Ignored.Shop["[SledgeHammer] - $361"]:FindFirstChild("ClickDetector")
 					wait(.9)
 					fireclickdetector(cd)
 					wait(.4)
